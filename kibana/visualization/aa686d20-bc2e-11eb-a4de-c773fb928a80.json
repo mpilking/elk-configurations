@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "description": "Log Count of MFT Parser",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"query\":{\"language\":\"kuery\",\"query\":\"parser.keyword :\\\"winevtx\\\" \"}}"
+    },
+    "title": "MFT Parser Log Count (copy 1)",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{\"customLabel\":\"Winevtx Parser Log Count\"},\"schema\":\"metric\",\"type\":\"count\"}],\"params\":{\"addLegend\":false,\"addTooltip\":true,\"metric\":{\"colorSchema\":\"Green to Red\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"invertColors\":false,\"labels\":{\"show\":true},\"metricColorMode\":\"None\",\"percentageMode\":false,\"style\":{\"bgColor\":false,\"bgFill\":\"#000\",\"fontSize\":30,\"labelColor\":false,\"subText\":\"\"},\"useRanges\":false},\"type\":\"metric\"},\"title\":\"MFT Parser Log Count (copy 1)\",\"type\":\"metric\"}"
+  },
+  "id": "aa686d20-bc2e-11eb-a4de-c773fb928a80",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "0a914d50-ba65-11eb-b586-57c3c6fff295",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "visualization"
+}

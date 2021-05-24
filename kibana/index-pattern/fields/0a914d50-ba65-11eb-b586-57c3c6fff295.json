@@ -1,0 +1,3698 @@
+[
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "_id"
+    ],
+    "name": "_id",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "_index"
+    ],
+    "name": "_index",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "name": "_score",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": false,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "_source"
+    ],
+    "name": "_source",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": false,
+    "type": "_source"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "_type"
+    ],
+    "name": "_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "access_count",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "account_rid",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "application",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "application.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "application"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "application_focus_count",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "application_focus_duration",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "attribute_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "audit_source_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "audit_source_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "audit_source_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "authentication_package_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "authentication_package_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "authentication_package_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "birth_droid_file_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "birth_droid_file_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "birth_droid_file_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "birth_droid_volume_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "birth_droid_volume_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "birth_droid_volume_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "build_number",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "build_number.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "build_number"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "cache_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "cached_file_size",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "cached_filename",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "cached_filename.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "cached_filename"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "command_line_arguments",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "command_line_arguments.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "command_line_arguments"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "comment",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "comment.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "comment"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "comments",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "comments.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "comments"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "component",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "component.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "component"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "computer_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "computer_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "computer_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "configuration",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "configuration.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "configuration"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "container_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "data",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "data.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "data"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "data_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "data_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "data_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "date"
+    ],
+    "name": "datetime",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "date"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "description",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "description.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "description"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "directory",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "directory.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "directory"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "display_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "display_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "display_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "doc_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "doc_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "doc_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "drive_letter",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "drive_letter.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "drive_letter"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "drive_serial_number",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "drive_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "droid_file_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "droid_file_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "droid_file_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "droid_volume_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "droid_volume_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "droid_volume_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "entries",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "entries.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "entries"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "entry_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "entry_index",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "entry_number",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "entry_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "entry_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "entry_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "env_var_location",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "env_var_location.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "env_var_location"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "error_control",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "event_id",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "event_id.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "event_id"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "event_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "event_level",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "event_provider",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "event_provider.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "event_provider"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "event_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "event_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "event_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "evidence_of",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "evidence_of.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "evidence_of"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "exit_status",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "exit_status.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "exit_status"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "facility",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "facility.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "facility"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "file_attribute_flags",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "file_extension",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "file_extension.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "file_extension"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "file_reference",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "file_reference.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "file_reference"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "file_size",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "file_size.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "file_size"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "file_system_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "file_system_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "file_system_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "filename",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "filename.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "filename"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "flags",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "flags.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "flags"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "fullname",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "fullname.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "fullname"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "hostname",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "hostname.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "hostname"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "icon_location",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "icon_location.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "icon_location"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "image_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "image_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "image_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "imphash",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "imphash.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "imphash"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "ip_address",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "ip_address.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "ip_address"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "boolean"
+    ],
+    "name": "is_allocated",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "boolean"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "key_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "key_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "key_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "label",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "label.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "label"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "link_target",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "link_target.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "link_target"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "local_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "local_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "local_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "localized_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "localized_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "localized_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "login_count",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "logon_process_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "logon_process_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "logon_process_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "logon_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "logon_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "logon_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "long_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "long_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "long_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "mac_address",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "mac_address.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "mac_address"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "message",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "message.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "message"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "message_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "message_status",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "message_status.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "message_status"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "message_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "message_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "message_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "network_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "network_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "network_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "number_of_executions",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "object_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "object_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "object_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "offset",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "offset.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "offset"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "origin",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "origin.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "origin"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "owner",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "owner.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "owner"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "parameters",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "parameters.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "parameters"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "parent_file_reference",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "parser",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "parser.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "parser"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "partition_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "partition_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "partition_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "partition_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "path_hints",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "path_hints.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "path_hints"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "path_spec",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "path_spec.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "path_spec"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "pe_type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "pe_type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "pe_type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "pin_status",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "process_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "process_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "process_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "product",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "product.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "product"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "product_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "product_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "product_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "record_number",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "boolean"
+    ],
+    "name": "recovered",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "boolean"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "relative_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "relative_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "relative_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "response_headers",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "response_headers.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "response_headers"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "section_names",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "section_names.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "section_names"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "sequence_number",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "sequence_number.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "sequence_number"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "serial",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "serial.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "serial"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "server_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "server_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "server_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "service_dll",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "service_dll.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "service_dll"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "service_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "session_id",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "session_id.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "session_id"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "set_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "settings",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "settings.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "settings"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "severity",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "severity.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "severity"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "sha256_hash",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "sha256_hash.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "sha256_hash"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "share_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "share_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "share_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "shell_item_path",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "shell_item_path.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "shell_item_path"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "size",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "source_long",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "source_long.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "source_long"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "source_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "source_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "source_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "source_port",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "source_port.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "source_port"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "source_short",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "source_short.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "source_short"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "start_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "strings",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "strings.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "strings"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "subject_username",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "subject_username.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "subject_username"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "subkey_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "subkey_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "subkey_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "symbolic_link_target",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "symbolic_link_target.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "symbolic_link_target"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "sync_count",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "table_identifier",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "target_username",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "target_username.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "target_username"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "text",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "text.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "text"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "timestamp",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "timestamp_desc",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "timestamp_desc.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "timestamp_desc"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "long"
+    ],
+    "name": "trigger_type",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "type": "number"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "type",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "type.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "type"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "url",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "url.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "url"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "user_identifier",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "user_identifier.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "user_identifier"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "user_sid",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "user_sid.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "user_sid"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "username",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "username.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "username"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "uuid",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "uuid.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "uuid"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "value",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "value.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "value"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "value_name",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "value_name.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "value_name"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "values",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "values.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "values"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "vendor",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "vendor.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "vendor"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "version",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "version.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "version"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "volume_label",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "volume_label.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "volume_label"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "working_directory",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "working_directory.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "working_directory"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "xml",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "xml.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "xml"
+      }
+    },
+    "type": "string"
+  },
+  {
+    "aggregatable": false,
+    "count": 0,
+    "esTypes": [
+      "text"
+    ],
+    "name": "xml_string",
+    "readFromDocValues": false,
+    "scripted": false,
+    "searchable": true,
+    "type": "string"
+  },
+  {
+    "aggregatable": true,
+    "count": 0,
+    "esTypes": [
+      "keyword"
+    ],
+    "name": "xml_string.keyword",
+    "readFromDocValues": true,
+    "scripted": false,
+    "searchable": true,
+    "subType": {
+      "multi": {
+        "parent": "xml_string"
+      }
+    },
+    "type": "string"
+  }
+]

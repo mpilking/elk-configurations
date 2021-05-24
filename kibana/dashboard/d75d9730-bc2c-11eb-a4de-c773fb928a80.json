@@ -1,0 +1,31 @@
+{
+  "attributes": {
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":5,\"i\":\"50f81cd6-c6ac-4677-b425-a85e2a8aa308\",\"w\":48,\"x\":0,\"y\":0},\"panelIndex\":\"50f81cd6-c6ac-4677-b425-a85e2a8aa308\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":36,\"i\":\"e8649e1d-3da9-44e7-9096-a5d4fa251d4d\",\"w\":6,\"x\":0,\"y\":5},\"panelIndex\":\"e8649e1d-3da9-44e7-9096-a5d4fa251d4d\",\"panelRefName\":\"panel_1\",\"version\":\"7.10.2\"}]",
+    "timeRestore": false,
+    "title": "FOR608 Home",
+    "version": 1
+  },
+  "id": "d75d9730-bc2c-11eb-a4de-c773fb928a80",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "4b8b37d0-bc2c-11eb-a4de-c773fb928a80",
+      "name": "panel_0",
+      "type": "visualization"
+    },
+    {
+      "id": "cb181c70-bc2c-11eb-a4de-c773fb928a80",
+      "name": "panel_1",
+      "type": "visualization"
+    }
+  ],
+  "type": "dashboard"
+}

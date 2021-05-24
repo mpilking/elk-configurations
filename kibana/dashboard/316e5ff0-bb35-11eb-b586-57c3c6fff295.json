@@ -1,0 +1,41 @@
+{
+  "attributes": {
+    "description": "Dashboard to have a quick glance of the most prevalent EventIDs",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"parser:\\\"winevtx\\\" \"}}"
+    },
+    "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":65,\"i\":\"5d8aa06d-cb39-4762-858a-83cf7c18cfe3\",\"w\":7,\"x\":0,\"y\":0},\"panelIndex\":\"5d8aa06d-cb39-4762-858a-83cf7c18cfe3\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":16,\"i\":\"96aea75a-0dbe-4cb1-8947-e364194f2316\",\"w\":17,\"x\":7,\"y\":0},\"panelIndex\":\"96aea75a-0dbe-4cb1-8947-e364194f2316\",\"panelRefName\":\"panel_1\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":16,\"i\":\"ce24ba23-1f30-4c50-83ab-bf55e01df049\",\"w\":24,\"x\":24,\"y\":0},\"panelIndex\":\"ce24ba23-1f30-4c50-83ab-bf55e01df049\",\"panelRefName\":\"panel_2\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":19,\"i\":\"cfd86d4c-5945-430b-9509-110b6749bffc\",\"w\":41,\"x\":7,\"y\":16},\"panelIndex\":\"cfd86d4c-5945-430b-9509-110b6749bffc\",\"panelRefName\":\"panel_3\",\"version\":\"7.10.2\"}]",
+    "timeRestore": false,
+    "title": "Event Logs",
+    "version": 1
+  },
+  "id": "316e5ff0-bb35-11eb-b586-57c3c6fff295",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "cb181c70-bc2c-11eb-a4de-c773fb928a80",
+      "name": "panel_0",
+      "type": "visualization"
+    },
+    {
+      "id": "d39b0410-bb33-11eb-b586-57c3c6fff295",
+      "name": "panel_1",
+      "type": "visualization"
+    },
+    {
+      "id": "0d55bb30-bc2b-11eb-a4de-c773fb928a80",
+      "name": "panel_2",
+      "type": "visualization"
+    },
+    {
+      "id": "e1663f00-bb34-11eb-b586-57c3c6fff295",
+      "name": "panel_3",
+      "type": "visualization"
+    }
+  ],
+  "type": "dashboard"
+}

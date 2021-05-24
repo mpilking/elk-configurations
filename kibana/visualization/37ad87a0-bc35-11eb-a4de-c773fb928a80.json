@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"query\":{\"language\":\"kuery\",\"query\":\"parser.keyword :\\\"winevtx\\\" AND event_provider.keyword :\\\"Microsoft Windows PowerShell\\\" \"}}"
+    },
+    "title": "Event Logs - Powershell Messages",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"customLabel\":\"Messages\",\"field\":\"message.keyword\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":10},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":true,\"truncate\":100,\"values\":true},\"legendPosition\":\"bottom\",\"row\":true,\"type\":\"pie\"},\"title\":\"Event Logs - Powershell Messages\",\"type\":\"pie\"}"
+  },
+  "id": "37ad87a0-bc35-11eb-a4de-c773fb928a80",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "0a914d50-ba65-11eb-b586-57c3c6fff295",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "visualization"
+}

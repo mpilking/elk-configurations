@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "Side Panel that will hold links to additional Dashboards",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "FOR608 Quick Action Pane",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"## Dashboards\\n* Home\\n* Event Logs\\n* MITRE ATT&CK\",\"openLinksInNewTab\":false},\"title\":\"FOR608 Quick Action Pane\",\"type\":\"markdown\"}"
+  },
+  "id": "cb181c70-bc2c-11eb-a4de-c773fb928a80",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}

@@ -1,0 +1,29 @@
+{
+  "attributes": {
+    "columns": [
+      "timestamp_desc",
+      "parser",
+      "message"
+    ],
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"query\":{\"language\":\"kuery\",\"query\":\"\"},\"version\":true}"
+    },
+    "sort": [],
+    "title": "608-intrusion",
+    "version": 1
+  },
+  "id": "c43deef0-b044-11eb-9a29-0d2a8300cc78",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "ad40a5b0-b041-11eb-9a29-0d2a8300cc78",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "search"
+}
