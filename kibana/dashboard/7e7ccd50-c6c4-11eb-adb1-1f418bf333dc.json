@@ -1,0 +1,61 @@
+{
+  "attributes": {
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":40,\"i\":\"6a63e4f2-6aca-48cd-bc9a-2ed6a81d0868\",\"w\":6,\"x\":0,\"y\":0},\"panelIndex\":\"6a63e4f2-6aca-48cd-bc9a-2ed6a81d0868\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":14,\"i\":\"94a838dc-7a9e-4990-a8e8-dc3848c26464\",\"w\":42,\"x\":6,\"y\":0},\"panelIndex\":\"94a838dc-7a9e-4990-a8e8-dc3848c26464\",\"panelRefName\":\"panel_1\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":10,\"i\":\"b89f87c2-118e-417a-b04d-7399bc4d5796\",\"w\":11,\"x\":6,\"y\":14},\"panelIndex\":\"b89f87c2-118e-417a-b04d-7399bc4d5796\",\"panelRefName\":\"panel_2\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":10,\"i\":\"bb5496d0-bfa7-4b40-aac2-e33e12aa4bd9\",\"w\":20,\"x\":17,\"y\":14},\"panelIndex\":\"bb5496d0-bfa7-4b40-aac2-e33e12aa4bd9\",\"panelRefName\":\"panel_3\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":10,\"i\":\"448408f1-f22e-4514-9c19-6dcb6f97fbb6\",\"w\":11,\"x\":37,\"y\":14},\"panelIndex\":\"448408f1-f22e-4514-9c19-6dcb6f97fbb6\",\"panelRefName\":\"panel_4\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":17,\"i\":\"438a4ca2-344b-4f09-8e40-c52e724a9644\",\"w\":21,\"x\":6,\"y\":24},\"panelIndex\":\"438a4ca2-344b-4f09-8e40-c52e724a9644\",\"panelRefName\":\"panel_5\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":9,\"i\":\"f24852a9-1e2b-4372-84a3-2c3c618d8a74\",\"w\":21,\"x\":27,\"y\":24},\"panelIndex\":\"f24852a9-1e2b-4372-84a3-2c3c618d8a74\",\"panelRefName\":\"panel_6\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":8,\"i\":\"9e9af488-af82-457c-85cf-e4f34eada80f\",\"w\":21,\"x\":27,\"y\":33},\"panelIndex\":\"9e9af488-af82-457c-85cf-e4f34eada80f\",\"panelRefName\":\"panel_7\",\"version\":\"7.10.2\"}]",
+    "timeRestore": false,
+    "title": "FOR608 MITRE ATT&CK",
+    "version": 1
+  },
+  "id": "7e7ccd50-c6c4-11eb-adb1-1f418bf333dc",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "a9cdc7d0-c6c3-11eb-adb1-1f418bf333dc",
+      "name": "panel_0",
+      "type": "visualization"
+    },
+    {
+      "id": "2dfc55d0-c6c9-11eb-adb1-1f418bf333dc",
+      "name": "panel_1",
+      "type": "visualization"
+    },
+    {
+      "id": "5fc52530-c70d-11eb-ad3c-db9b95ce2121",
+      "name": "panel_2",
+      "type": "visualization"
+    },
+    {
+      "id": "eebb1640-c70e-11eb-ad3c-db9b95ce2121",
+      "name": "panel_3",
+      "type": "visualization"
+    },
+    {
+      "id": "487b5050-c70f-11eb-ad3c-db9b95ce2121",
+      "name": "panel_4",
+      "type": "visualization"
+    },
+    {
+      "id": "b8906600-c70f-11eb-ad3c-db9b95ce2121",
+      "name": "panel_5",
+      "type": "visualization"
+    },
+    {
+      "id": "19e14550-c710-11eb-ad3c-db9b95ce2121",
+      "name": "panel_6",
+      "type": "visualization"
+    },
+    {
+      "id": "6538d680-c710-11eb-ad3c-db9b95ce2121",
+      "name": "panel_7",
+      "type": "visualization"
+    }
+  ],
+  "type": "dashboard"
+}

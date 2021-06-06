@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "Welcome",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"# FOR608\\n\\nWelcome to the FOR608 Elastic!!\",\"openLinksInNewTab\":false},\"title\":\"Welcome\",\"type\":\"markdown\"}"
+  },
+  "id": "fbb7cbb0-c711-11eb-ad3c-db9b95ce2121",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}

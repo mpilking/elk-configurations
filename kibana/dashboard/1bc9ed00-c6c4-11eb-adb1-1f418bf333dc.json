@@ -1,0 +1,26 @@
+{
+  "attributes": {
+    "description": "",
+    "hits": 0,
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
+    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":42,\"i\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"w\":5,\"x\":0,\"y\":0},\"panelIndex\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"}]",
+    "timeRestore": false,
+    "title": "FOR608 Event Logs",
+    "version": 1
+  },
+  "id": "1bc9ed00-c6c4-11eb-adb1-1f418bf333dc",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "a9cdc7d0-c6c3-11eb-adb1-1f418bf333dc",
+      "name": "panel_0",
+      "type": "visualization"
+    }
+  ],
+  "type": "dashboard"
+}

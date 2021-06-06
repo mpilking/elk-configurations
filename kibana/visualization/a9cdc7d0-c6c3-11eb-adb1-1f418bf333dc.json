@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "Navigation",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"## Navigation ##\\n\\n* [Home](/app/dashboards#/view/bc15f4d0-c6c3-11eb-adb1-1f418bf333dc)\\n* [Event Logs](/app/dashboards#/view/1bc9ed00-c6c4-11eb-adb1-1f418bf333dc)\\n* [MITRE ATT&CK](/app/dashboards#/view/7e7ccd50-c6c4-11eb-adb1-1f418bf333dc)\\n\",\"openLinksInNewTab\":false},\"title\":\"Navigation\",\"type\":\"markdown\"}"
+  },
+  "id": "a9cdc7d0-c6c3-11eb-adb1-1f418bf333dc",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}

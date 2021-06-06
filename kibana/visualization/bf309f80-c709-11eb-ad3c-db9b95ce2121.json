@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "Parsers Overview",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### Parsers Overview ###\\nParsers are directly related to the the source of evidence within Elasticsearch. \\n\\nWhen navigating through Kibana, parsers will allow for filtering to specific sources. A few examples of parsers within Elasticsearch are:\\n\\n* Winetx\\n* MFT\\n* Winreg\\n* ESEDB \",\"openLinksInNewTab\":false},\"title\":\"Parsers Overview\",\"type\":\"markdown\"}"
+  },
+  "id": "bf309f80-c709-11eb-ad3c-db9b95ce2121",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}

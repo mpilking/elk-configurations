@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "Tags Overview",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### Tags Overview ###\\n\\nData within Elasticsearch has been tagged to categorize data by common known tactics. The majority of the tags are based on the MITRE ATT&CK Framework. To see more details, view the [MITRE ATT&CK](/app/dashboards#/view/7e7ccd50-c6c4-11eb-adb1-1f418bf333dc) dashboard.\\n\\nTo the left is a Tag Cloud that represent the amount of logs that exist within Elasticsearch and have been tagged. The larger the word, the more logs are present.\",\"openLinksInNewTab\":false},\"title\":\"Tags Overview\",\"type\":\"markdown\"}"
+  },
+  "id": "101e7010-c70b-11eb-ad3c-db9b95ce2121",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}

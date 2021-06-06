@@ -1,0 +1,18 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
+    },
+    "title": "Event Logs Overview",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[],\"params\":{\"fontSize\":12,\"markdown\":\"### Event Logs Overview ###\\n\\nOne of the largest sources within Elasticsearch are Event Logs. An efficient method of filtering Event logs are to filter by the Event ID. To see more details, view the [Event Logs](/app/dashboards#/view/1bc9ed00-c6c4-11eb-adb1-1f418bf333dc) dashboard.\\n\\nTo the left is a Tag Cloud that represent the amount of logs that exist within Elasticsearch. The larger the word, the more logs are present.\",\"openLinksInNewTab\":false},\"title\":\"Event Logs Overview\",\"type\":\"markdown\"}"
+  },
+  "id": "0da942a0-c711-11eb-ad3c-db9b95ce2121",
+  "namespaces": [
+    "default"
+  ],
+  "references": [],
+  "type": "visualization"
+}
