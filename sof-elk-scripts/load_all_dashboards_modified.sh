@@ -10,12 +10,15 @@ es_port=9200
 kibana_host=localhost
 kibana_port=5601
 kibana_index=.kibana
-kibana_file_dir="/usr/local/sof-elk/kibana/"
+kibana_file_dir="/home/sansforensics/elk-configurations/kibana"
 
-[ -r /etc/sysconfig/sof-elk ] && . /etc/sysconfig/sof-elk
+#[ -r /etc/sysconfig/sof-elk ] && . /etc/sysconfig/sof-elk
 
-kibana_version=$( jq -r '.version' < /usr/share/kibana/package.json )
-kibana_build=$(jq -r '.build.number' < /usr/share/kibana/package.json )
+#kibana_version=$( jq -r '.version' < /usr/share/kibana/package.json )
+#kibana_build=$(jq -r '.build.number' < /usr/share/kibana/package.json )
+
+kibana_version=7.10.2
+kibana_build=36136
 
 # enter a holding pattern until the elasticsearch server is available, but don't wait too long
 max_wait=60
@@ -30,13 +33,6 @@ until curl -s -X GET http://${es_host}:${es_port}/_cluster/health > /dev/null ; 
     sleep ${interval}
 done
 
-# re-insert all ES templates in case anything has changed
-# this will not change existing mappings, just new indexes as they are created
-# (And why-oh-why isn't this handled by "template_overwrite = true" in the logstash output section?!?!?!?!)
-for es_template_file in $( ls -1 /usr/local/sof-elk/lib/elasticsearch-*-template.json ); do
-    es_template=$( echo $es_template_file | sed 's/.*elasticsearch-\(.*\)-template.json/\1/' )
-    curl -s -H 'kbn-xsrf: true' -H 'Content-Type: application/json' -X PUT http://${es_host}:${es_port}/_template/${es_template} -d @${es_template_file} > /dev/null
-done
 
 # set the default index pattern, time zone, and add TZ offset to the default date format, and other custom Kibana settings
 curl -s -H 'kbn-xsrf: true' -H 'Content-Type: application/json' -X POST http://${es_host}:${es_port}/${kibana_index}/_doc/config:${kibana_version} -d @${kibana_file_dir}/sof-elk_config.json > /dev/null
@@ -87,7 +83,7 @@ done
 # insert/update dashboards, visualizations, maps, and searches
 # ORDER MATTERS!!! dependencies in the "references" field will cause failure to insert if the references are not already present
 TMPNDJSONFILE=$( mktemp --suffix=.ndjson )
-for objecttype in visualization map search dashboard; do
+for objecttype in visualization dashboard; do
     cat ${kibana_file_dir}/${objecttype}/*.json | jq -c '.' >> ${TMPNDJSONFILE}
 done
 curl -s -H 'kbn-xsrf: true' --form file=@${TMPNDJSONFILE} -X POST "http://${kibana_host}:${kibana_port}/api/saved_objects/_import?overwrite=true" > /dev/null
