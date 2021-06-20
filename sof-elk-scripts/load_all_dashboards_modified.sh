@@ -83,7 +83,7 @@ done
 # insert/update dashboards, visualizations, maps, and searches
 # ORDER MATTERS!!! dependencies in the "references" field will cause failure to insert if the references are not already present
 TMPNDJSONFILE=$( mktemp --suffix=.ndjson )
-for objecttype in visualization map search dashboard; do
+for objecttype in visualization dashboard; do
     cat ${kibana_file_dir}/${objecttype}/*.json | jq -c '.' >> ${TMPNDJSONFILE}
 done
 curl -s -H 'kbn-xsrf: true' --form file=@${TMPNDJSONFILE} -X POST "http://${kibana_host}:${kibana_port}/api/saved_objects/_import?overwrite=true" > /dev/null
