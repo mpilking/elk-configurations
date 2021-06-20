@@ -6,8 +6,14 @@
       "searchSourceJSON": "{\"filter\":[],\"query\":{\"language\":\"kuery\",\"query\":\"\"}}"
     },
     "optionsJSON": "{\"hidePanelTitles\":false,\"useMargins\":true}",
-    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":42,\"i\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"w\":5,\"x\":0,\"y\":0},\"panelIndex\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"}]",
-    "timeRestore": false,
+    "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"h\":55,\"i\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"w\":5,\"x\":0,\"y\":0},\"panelIndex\":\"424ba4a2-393f-4220-a2bd-4afe30fd1ca1\",\"panelRefName\":\"panel_0\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":13,\"i\":\"715a4c29-0e70-4b73-be08-9953519b860b\",\"w\":42,\"x\":5,\"y\":0},\"panelIndex\":\"715a4c29-0e70-4b73-be08-9953519b860b\",\"panelRefName\":\"panel_1\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":16,\"i\":\"d82a1ffb-9564-4bfa-96c5-3b921d066bcf\",\"w\":14,\"x\":5,\"y\":13},\"panelIndex\":\"d82a1ffb-9564-4bfa-96c5-3b921d066bcf\",\"panelRefName\":\"panel_2\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":16,\"i\":\"486cbb9c-a0d5-4e22-8a3a-1b6288bc9418\",\"w\":13,\"x\":19,\"y\":13},\"panelIndex\":\"486cbb9c-a0d5-4e22-8a3a-1b6288bc9418\",\"panelRefName\":\"panel_3\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":16,\"i\":\"90c4d454-84d7-4f93-8f22-2171bfa06ee3\",\"w\":15,\"x\":32,\"y\":13},\"panelIndex\":\"90c4d454-84d7-4f93-8f22-2171bfa06ee3\",\"panelRefName\":\"panel_4\",\"version\":\"7.10.2\"},{\"embeddableConfig\":{},\"gridData\":{\"h\":26,\"i\":\"76c29cd2-baa7-4c44-85bc-4da1050518f7\",\"w\":42,\"x\":5,\"y\":29},\"panelIndex\":\"76c29cd2-baa7-4c44-85bc-4da1050518f7\",\"panelRefName\":\"panel_5\",\"version\":\"7.10.2\"}]",
+    "refreshInterval": {
+      "pause": true,
+      "value": 0
+    },
+    "timeFrom": "2020-01-01T14:30:31.973Z",
+    "timeRestore": true,
+    "timeTo": "2020-03-01T14:30:47.110Z",
     "title": "FOR608 Event Logs",
     "version": 1
   },
@@ -19,6 +25,31 @@
     {
       "id": "a9cdc7d0-c6c3-11eb-adb1-1f418bf333dc",
       "name": "panel_0",
+      "type": "visualization"
+    },
+    {
+      "id": "c61a9890-c6c9-11eb-adb1-1f418bf333dc",
+      "name": "panel_1",
+      "type": "visualization"
+    },
+    {
+      "id": "a70a8f00-d1cd-11eb-81da-fd6aa262c67d",
+      "name": "panel_2",
+      "type": "visualization"
+    },
+    {
+      "id": "d6f37640-d1ce-11eb-81da-fd6aa262c67d",
+      "name": "panel_3",
+      "type": "visualization"
+    },
+    {
+      "id": "08e314e0-d1ce-11eb-81da-fd6aa262c67d",
+      "name": "panel_4",
+      "type": "visualization"
+    },
+    {
+      "id": "5cb02d10-d1ce-11eb-81da-fd6aa262c67d",
+      "name": "panel_5",
       "type": "visualization"
     }
   ],

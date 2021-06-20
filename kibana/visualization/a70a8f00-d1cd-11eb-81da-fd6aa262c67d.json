@@ -1,0 +1,24 @@
+{
+  "attributes": {
+    "description": "",
+    "kibanaSavedObjectMeta": {
+      "searchSourceJSON": "{\"filter\":[],\"indexRefName\":\"kibanaSavedObjectMeta.searchSourceJSON.index\",\"query\":{\"language\":\"kuery\",\"query\":\"parser:winevtx\"}}"
+    },
+    "title": "FOR608 - EventLogs:EventID Pie Chart",
+    "uiStateJSON": "{}",
+    "version": 1,
+    "visState": "{\"aggs\":[{\"enabled\":true,\"id\":\"1\",\"params\":{},\"schema\":\"metric\",\"type\":\"count\"},{\"enabled\":true,\"id\":\"2\",\"params\":{\"field\":\"event_id.keyword\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"size\":20},\"schema\":\"segment\",\"type\":\"terms\"}],\"params\":{\"addLegend\":true,\"addTooltip\":true,\"isDonut\":true,\"labels\":{\"last_level\":true,\"show\":false,\"truncate\":100,\"values\":true},\"legendPosition\":\"bottom\",\"type\":\"pie\"},\"title\":\"FOR608 - EventLogs:EventID Pie Chart\",\"type\":\"pie\"}"
+  },
+  "id": "a70a8f00-d1cd-11eb-81da-fd6aa262c67d",
+  "namespaces": [
+    "default"
+  ],
+  "references": [
+    {
+      "id": "0a6cc210-ba28-11eb-aaf7-7bd2cf3a646a",
+      "name": "kibanaSavedObjectMeta.searchSourceJSON.index",
+      "type": "index-pattern"
+    }
+  ],
+  "type": "visualization"
+}
